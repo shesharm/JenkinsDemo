@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Flip google" verbose="1" >
+
+ <listeners>
+    <listener class-name="testng_listener.CustomListener"/>
+</listeners>
+
+<test name="Yahoo">
+    <classes>
+       <class name="testng_listener.TryListener" />
+    </classes>
+</test>
+  <test name="flipkart  Test" >
+    <classes>
+       <class name="com.flip.Flipkart" />
+    </classes>
+  </test>
+ 
+  <test name="Googles Test">
+    <classes>
+      <class name="com.Google.Google"/>
+       <class name="com.Google.GmailLogin"/>
+    </classes>
+  </test>
+</suite>

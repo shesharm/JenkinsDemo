@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Flip google" duration-ms="42" started-at="2015-07-31T08:52:34Z" finished-at="2015-07-31T08:52:34Z">
+    <groups>
+    </groups>
+    <test name="Yahoo" duration-ms="7" started-at="2015-07-31T08:52:34Z" finished-at="2015-07-31T08:52:34Z">
+      <class name="testng_listener.TryListener">
+        <test-method status="PASS" signature="LoginYahoo()[pri:0, instance:testng_listener.TryListener@694c01ac]" name="LoginYahoo" duration-ms="0" started-at="2015-07-31T14:22:34Z" finished-at="2015-07-31T14:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginYahoo -->
+      </class> <!-- testng_listener.TryListener -->
+    </test> <!-- Yahoo -->
+    <test name="flipkart  Test" duration-ms="1" started-at="2015-07-31T08:52:34Z" finished-at="2015-07-31T08:52:34Z">
+      <class name="com.flip.Flipkart">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.flip.Flipkart@2b46950c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-07-31T14:22:34Z" finished-at="2015-07-31T14:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.flip.Flipkart@2b46950c]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-07-31T14:22:34Z" finished-at="2015-07-31T14:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.flip.Flipkart@2b46950c]" name="f" duration-ms="0" started-at="2015-07-31T14:22:34Z" finished-at="2015-07-31T14:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.flip.Flipkart -->
+    </test> <!-- flipkart  Test -->
+    <test name="Googles Test" duration-ms="8" started-at="2015-07-31T08:52:34Z" finished-at="2015-07-31T08:52:34Z">
+      <class name="com.Google.GmailLogin">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.Google.GmailLogin@74a456bb]" name="Login" duration-ms="1" started-at="2015-07-31T14:22:34Z" data-provider="regTestDataprovider" finished-at="2015-07-31T14:22:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shekhar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:com.Google.GmailLogin@74a456bb]" name="Login" duration-ms="0" started-at="2015-07-31T14:22:34Z" data-provider="regTestDataprovider" finished-at="2015-07-31T14:22:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sharma@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- com.Google.GmailLogin -->
+      <class name="com.Google.Google">
+        <test-method status="PASS" signature="GoogleBeforeSuite()[pri:0, instance:com.Google.Google@2d0a238e]" name="GoogleBeforeSuite" is-config="true" duration-ms="7" started-at="2015-07-31T14:22:34Z" finished-at="2015-07-31T14:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleBeforeSuite -->
+        <test-method status="PASS" signature="GoogleBefore()[pri:0, instance:com.Google.Google@2d0a238e]" name="GoogleBefore" is-config="true" duration-ms="1" started-at="2015-07-31T14:22:34Z" finished-at="2015-07-31T14:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleBefore -->
+        <test-method status="PASS" signature="GoogleBeforeClass()[pri:0, instance:com.Google.Google@2d0a238e]" name="GoogleBeforeClass" is-config="true" duration-ms="0" started-at="2015-07-31T14:22:34Z" finished-at="2015-07-31T14:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleBeforeClass -->
+        <test-method status="PASS" signature="GoogleBeforeMethod()[pri:0, instance:com.Google.Google@2d0a238e]" name="GoogleBeforeMethod" is-config="true" duration-ms="0" started-at="2015-07-31T14:22:34Z" finished-at="2015-07-31T14:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleBeforeMethod -->
+        <test-method status="SKIP" signature="GoogleStop()[pri:0, instance:com.Google.Google@2d0a238e]" name="GoogleStop" duration-ms="1" started-at="2015-07-31T14:22:34Z" finished-at="2015-07-31T14:22:34Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping google stopping]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping google stopping
+	at com.Google.Google.GoogleStop(Google.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleStop -->
+        <test-method status="PASS" signature="GoogleBeforeMethod()[pri:0, instance:com.Google.Google@2d0a238e]" name="GoogleBeforeMethod" is-config="true" duration-ms="1" started-at="2015-07-31T14:22:34Z" finished-at="2015-07-31T14:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleBeforeMethod -->
+        <test-method status="PASS" signature="Googlestart()[pri:0, instance:com.Google.Google@2d0a238e]" name="Googlestart" duration-ms="0" started-at="2015-07-31T14:22:34Z" finished-at="2015-07-31T14:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Googlestart -->
+      </class> <!-- com.Google.Google -->
+    </test> <!-- Googles Test -->
+  </suite> <!-- Flip google -->
+</testng-results>

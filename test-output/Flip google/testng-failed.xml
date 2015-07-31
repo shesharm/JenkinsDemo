@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flip google]">
+  <listeners>
+    <listener class-name="testng_listener.CustomListener"/>
+  </listeners>
+  <test name="Googles Test(failed)">
+    <classes>
+      <class name="com.flip.Flipkart">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.flip.Flipkart -->
+      <class name="com.Google.Google">
+        <methods>
+          <include name="GoogleStop"/>
+          <include name="GoogleBeforeMethod"/>
+          <include name="GoogleBeforeClass"/>
+          <include name="GoogleBefore"/>
+          <include name="GoogleBeforeSuite"/>
+        </methods>
+      </class> <!-- com.Google.Google -->
+    </classes>
+  </test> <!-- Googles Test(failed) -->
+</suite> <!-- Failed suite [Flip google] -->
